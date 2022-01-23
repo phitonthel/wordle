@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import Lib from "../libs/wordle"
-import dict from "../libs/dict"
+import { dict } from "../libs/dict"
 
 import PositionedCharInput from "../components/wordle/PositionedCharInput"
 import WordCard from "../components/wordle/WordCard"
@@ -42,7 +42,6 @@ export default function Wordle() {
       positionedChars
     )
     setOutput(availableWords)
-    console.log(availableWords);
     setIsLoading(false)
   }
 

@@ -1,4 +1,4 @@
-class Lib {
+export default class Lib {
   static createCounterObj() {
     const alphabets = 'abcdefghijklmnopqrstuvwxyz'
     const output = {}
@@ -141,5 +141,3 @@ class Lib {
     return output
   }
 }
-
-module.exports = Lib

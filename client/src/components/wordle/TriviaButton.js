@@ -1,6 +1,6 @@
 import Swal from "sweetalert2"
 import Lib from "../../libs/wordle"
-import dict from "../../libs/dict"
+import { dict } from "../../libs/dict"
 
 const createVanillaHTML = (sortedCounterArr) => {
   let cards = ''

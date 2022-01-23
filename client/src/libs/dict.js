@@ -1,4 +1,4 @@
-const dict = `a
+export let dict = `a
 aa
 aaa
 aah
@@ -370101,5 +370101,3 @@ zwinglianist
 zwitter
 zwitterion
 zwitterionic`
-
-module.exports = dict
