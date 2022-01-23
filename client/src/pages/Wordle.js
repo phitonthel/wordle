@@ -48,7 +48,7 @@ export default function Wordle() {
   return (
     <header className="my-4">
       <div className="container">
-        <div>{unavailableChars} {includedChars} {JSON.stringify(positionedChars)}</div>
+        {/* <div>{unavailableChars} {includedChars} {JSON.stringify(positionedChars)}</div> */}
         <form>
           <div className="form-group row">
             <label htmlFor="unavailableChars">Unavailable Characters</label>
