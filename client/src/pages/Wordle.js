@@ -48,7 +48,7 @@ export default function Wordle() {
   }
 
   return (
-    <header className="my-4">
+    <header className="m-4">
       <div className="container">
         <form>
           <div className="form-group row">
