@@ -76,16 +76,15 @@ export default class Lib {
     
       for (let i = 0; i < availableChars.length; i++) {
         const includedChar = availableChars[i];
-        if (word.includes(includedChar)) {
-          countChar++
-        }
+        
+        // counts how many letter occurs
+        countChar += word.split(includedChar).length - 1
       }
     
-      if (countChar == 5) {
+      if (countChar === 5) {
         output.push(word)
       }
     });
-
     return output
   }
 
@@ -106,7 +105,6 @@ export default class Lib {
         output.push(word)
       }
     });
-
     return output
   }
 
@@ -132,12 +130,12 @@ export default class Lib {
           }
         }
       }
-
+  
       if (countChar === numberOfPositionedChars) {
         output.push(word)
       }
     });
-
+    console.log({filterWordsByPosition: output});
     return output
   }
 }
